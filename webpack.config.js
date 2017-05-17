@@ -26,7 +26,6 @@ module.exports = {
         ]
     },
     devServer: {
-        port: 8080,
         contentBase: './dist',
         inline: true,
         stats: 'errors-only',
