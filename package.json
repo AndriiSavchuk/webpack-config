@@ -1,0 +1,26 @@
+{
+    "name": "webpack-template",
+    "version": "1.0.0",
+    "description": "webpack 2 configuration template",
+    "main": "index.js",
+    "scripts": {
+        "build": "webpack",
+        "dev": "webpack-dev-server"
+    },
+    "babel": {
+        "presets": [
+            "es2015"
+        ]
+    },
+    "keywords": [],
+    "author": "Andrii Savchuk",
+    "license": "ISC",
+    "devDependencies": {
+        "babel-core": "^6.24.1",
+        "babel-loader": "^6.4.1",
+        "babel-polyfill": "^6.23.0",
+        "babel-preset-es2015": "^6.24.1",
+        "webpack": "^2.4.1",
+        "webpack-dev-server": "^2.4.2"
+    }
+}
