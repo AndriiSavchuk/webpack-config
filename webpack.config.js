@@ -29,7 +29,8 @@ module.exports = {
     contentBase: './dist',
     inline: true,
     stats: 'errors-only',
-    open: true
+    open: true,
+    openPage: ''
   },
   plugins: [
     new HtmlWebpackPlugin({
